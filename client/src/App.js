@@ -1,27 +1,27 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Header from "./components/Header";
-import Results from "./components/Results";
-import Search from "./components/Search";
+
 import Wrapper from "./components/Wrapper";
+import Search from "./pages/Search";
+import Saved from "./pages/Saved";
+import PlaceHold from "./pages/PlaceHold";
 
 import "./App.css";
 
 class App extends Component {
-  state = {
-    results
-  }
-
+ 
   render() {
     return (
       <Router>
         <div>
           <NavBar />
-          <Header />
+          
           <Wrapper>
-            <Route exact path="/" Component={search} />
-            <Route exact path="/search" Component={search} />
-            <Route exact path="/saved" Component={saved} />
+            <Route exact path="/" component={Search} />
+            <Route exact path="/search" component={Search} />
+            <Route exact path="/saved" component={Saved} />
+            <Route exact path="/PlaceHold" component={PlaceHold} />
           </Wrapper>
         </div>
       </Router>

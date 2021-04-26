@@ -11,7 +11,7 @@ In this activity, you'll create a new React-based Google Books Search app. This 
 
 ## screenshot
 
-<img src="./Assets/image/bgAPI.jpg">
+<img src="./Assets/images/bgAPI.jpg">
 
 ## Available Scripts
 

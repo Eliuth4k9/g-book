@@ -6,7 +6,7 @@ return (
   <div className="container">
   <form>
     <div className="form-group">
-      <label><h2>Lets see what we can find for you!</h2></label>
+      <label className="text-light"><h2>Lets see what we can find for you!</h2></label>
       <input
         onChange={props.handleInputChange}
         value={props.search}

@@ -13,7 +13,6 @@ const bookSeed =[
 {
     authors: ["Paulo Coelho"],
     description: "Paulo Coelho’s masterpiece tells the magical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure as extravagant as any ever found.",
-    image: "https://www.google.com/books/edition/The_Alchemist_LP/lz-BoS0zjIgC?hl=en&gbpv=1",
     link: "https://www.google.com/books/edition/The_Alchemist_LP/lz-BoS0zjIgC?hl=en&gbpv=0",
     title: "The Alchemist",
 },

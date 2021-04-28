@@ -4,7 +4,7 @@ nav {
         rgba(148, 48, 48, 0.2),
         rgba(167, 67, 67, 0.4)
       ),
-      url(http://www.djfood.org/wp-content/uploads/2013/05/Akira-bg-4.jpg) center no-repeat;
+      url(../../pics/cityBg.jpg) center no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;

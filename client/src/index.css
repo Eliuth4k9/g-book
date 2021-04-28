@@ -12,10 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
-    rgba(148, 48, 48, 0.2),
-    rgba(167, 67, 67, 0.4)
+    rgba(7, 6, 6, 0.2),
+    rgba(26, 23, 23, 0.4)
   ),
-  url(https://miro.medium.com/max/20000/1*6YEZ5H5c5U-P5y_B4isT4w.jpeg) center no-repeat;
+  url(./pics/maxBg.jpeg) center no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-repeat: no-repeat;
